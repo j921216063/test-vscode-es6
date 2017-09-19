@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "command": "npm", //執行npm命令
+  "isShellCommand": true,
+  "showOutput": "always",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "build", //task名稱
+      "args": [ //npm run build
+        "run",
+        "build"
+      ],
+      "isBuildCommand": true
+    }
+  ]
+}
